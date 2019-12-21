@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In July 2017 Oracle announced to release updates to SQL Developer on a quarterly basis. Installing multiple versions of SQL Developer on the same machine is not a problem. Hence a lot of developers install a new version when it becomes available. On the initial start SQL Developer offers to import settings from the previous version. This works quite well for most of the settings. However, all third party extensions have to be installed manually afterwards. This is a cumbersome, boring task. 
+In July 2017 Oracle announced to release updates for SQL Developer on a quarterly basis. Installing multiple versions of SQL Developer on the same machine is not a problem. Therefore many developers install a new version as soon as it becomes available. On the first start SQL Developer offers to import the settings of the previous version. This works quite well for most settings. However, all third-party extensions must be installed manually afterwards. This is a cumbersome and boring task. 
 
 This repository maintains an update center for a set of freely available SQL Developer extensions to speed up the configuration of a new SQL Developer installation.
 
@@ -20,9 +20,24 @@ The following SQL Developer extensions are included in the update center:
 
 ## Usage
 
-...
+Click the `Help` menu and select `Check for Updates…`. Press the `Add` button to register the update center http://update.salvis.com/ . For this URL a redirect to https://philippsalvisberg.github.io/sqldev-update/sqldeveloper.xml is configured. The content is synchronized by GitHub based on the [docs/sqldeveloper.xml](docs/sqldeveloper.xml) in the master branch of this repository.
+
+![Add Update Center](images/add-update-center.png)
+
+Then press `Next >` to show the available updates. Select the updates you want and press `Next >` to start the download process.
+
+![Select Updates](images/select-updates.png)
+
+Wait until all updates are downloaded and press `Finish`.
+
+![Finish Wizard](images/finish-wizard.png)
+
+Restart SQL Developer to install the downloaded updates.
+
+![Restart SQL Developer](images/restart-sqldev.png)
 
 ## Issues
+
 Please file your bug reports, enhancement requests, questions and other support requests within [Github's issue tracker](https://help.github.com/articles/about-issues/).
 
 * [Questions](https://github.com/PhilippSalvisberg/sqldev-update/issues?q=is%3Aissue+label%3Aquestion)
