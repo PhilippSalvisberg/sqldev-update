@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<updates version="2.0"
+  xmlns="http://xmlns.oracle.com/jdeveloper/updatecenter"
+  xmlns:u="http://xmlns.oracle.com/jdeveloper/update">
+	<u:update id="org.utplsql.sqldev">
+		<u:name>utPLSQL for SQL Developer</u:name>
+		<u:version>1.1.0.20190822.231608</u:version>
+		<u:author>Philipp Salvisberg</u:author>
+		<u:author-url>http://utplsql.org/</u:author-url>
+		<u:description><![CDATA[Extension for running unit tests in SQL Developer.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.19.0.7" />
+		</u:requirements>
+		<u:bundle-url>https://github.com/utPLSQL/utPLSQL-SQLDeveloper/releases/download/v1.1.0/utplsql_for_SQLDev_1.1.0.zip
+		</u:bundle-url>
+	</u:update>
+    <u:update id="org.oddgen.sqldev">
+        <u:name>oddgen for SQL Developer</u:name>
+        <u:version>0.3.1.20170913.032528</u:version>
+        <u:author>Philipp Salvisberg</u:author>
+        <u:author-url>https://www.oddgen.org/</u:author-url>
+		<u:description><![CDATA[SQL Developer extension to invoke dictionary driven code generators.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.16.84" />
+		</u:requirements>
+        <u:bundle-url>https://github.com/oddgen/oddgen/releases/download/v0.3.1/oddgen_for_SQLDev_0.3.1.zip</u:bundle-url>
+    </u:update>
+    <u:update id="org.oddgen.bitemp.sqldev">
+        <u:name>Bitemp Remodeler for SQL Developer</u:name>
+        <u:version>0.3.1.20170713.005050</u:version>
+        <u:author>Philipp Salvisberg</u:author>
+        <u:author-url>https://www.oddgen.org/</u:author-url>
+		<u:description><![CDATA[SQL Developer extension to generate non-temporal&#44; uni-temporal and bi-temporal table API.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.16.84" />
+		</u:requirements>
+        <u:bundle-url>https://github.com/oddgen/bitemp/releases/download/v0.3.1/bitemp_for_SQLDev_0.3.1.zip</u:bundle-url>
+    </u:update>
+    <u:update id="com.trivadis.tvdcc.sqldev">
+        <u:name>Trivadis PL/SQL Cop for SQL Developer</u:name>
+        <u:version>2.3.0.20190929.113923</u:version>
+        <u:author>Trivadis AG</u:author>
+        <u:author-url>http://www.trivadis.com</u:author-url>
+		<u:description><![CDATA[Trivadis PL/SQL Cop for SQL Developer is an extension to check an editor content for compliance violations of the Trivadis PL/SQL & SQL Coding Guidelines Version 3.6 (see https://trivadis.github.io/plsql-and-sql-coding-guidelines/v3.6/). Furthermore McCabe's cyclomatic complexity&#44; Halstead's volume&#44; the maintainability index and some other software metrics are calculated for each PL/SQL unit and aggregated on file level. The results are presented in an additional tabbed panel. One tab shows all guideline violations to quickly navigate to the corresponding code position&#44; the other tab contains a full HTML report&#44; which also may be opened in your external browser.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.16.84" />
+		</u:requirements>
+        <u:bundle-url>https://github.com/Trivadis/plsql-cop-sqldev/releases/download/v2.3.0/TVDCC_for_SQLDev-2.3.0.zip</u:bundle-url>
+    </u:update>
+    <u:update id="com.trivadis.unwrapper.sqldev">
+        <u:name>Trivadis PL/SQL Unwrapper for SQL Developer</u:name>
+        <u:version>1.0.0.1878</u:version>
+        <u:author>Trivadis AG</u:author>
+        <u:author-url>http://www.trivadis.com</u:author-url>
+		<u:description><![CDATA[Trivadis PL/SQL Unwrapper for SQL Developer is an extension to unwrap an editor content.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.16.84" />
+		</u:requirements>
+        <u:bundle-url>https://github.com/Trivadis/plsql-unwrapper-sqldev/releases/download/v1.0.0/Unwrapper_for_SQLDev_1.0.0.zip</u:bundle-url>
+    </u:update>
+    <u:update id="com.salvis.plscope.sqldev">
+        <u:name>plscope-utils for SQL Developer</u:name>
+        <u:version>0.6.0.20171009.200526</u:version>
+        <u:author>Philipp Salvisberg</u:author>
+        <u:author-url>https://github.com/PhilippSalvisberg/plscope-utils/</u:author-url>
+        <u:description><![CDATA[SQL Developer extension to intergrate PL/Scope.]]></u:description>
+		<u:requirements>
+			<u:requires-extension id="oracle.sqldeveloper"
+				minVersion="12.2.0.16.84" />
+		</u:requirements>
+        <u:bundle-url>https://github.com/PhilippSalvisberg/plscope-utils/releases/download/v0.6.0/plscope-utils_for_SQLDev_0.6.0.zip</u:bundle-url>
+    </u:update>
+    <u:update id="com.tomecode.showme.password.sqldeveloper">
+        <u:name>Show Me Password SQL Developer 18c</u:name>
+        <u:version>1.0.0</u:version>
+        <u:author>TomeCode.com</u:author>
+        <u:author-url>http://code.google.com/p/show-me-password-sql-developer/</u:author-url>
+        <u:requirements>
+            <u:requires-extension id="oracle.sqldeveloper" 
+                minVersion="12.2.0.13.80" />
+        </u:requirements>
+        <u:description>The Show me password is extension for Oracle SQL Developer i.e. tool that decrypts all saved (encrypted) password for database connections in SQL Developer.</u:description>
+        <u:bundle-url>https://github.com/tomecode/show-me-password-sqldev-jdev/releases/download/%2316/ShowMePasswordSQLDeveloper-18c_v2.0.0.zip</u:bundle-url>
+    </u:update>
+</updates>
