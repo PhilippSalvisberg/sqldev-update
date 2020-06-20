@@ -15,12 +15,12 @@ The following SQL Developer extensions are included in the update center:
 - [Bitemp Remodeler](https://github.com/oddgen/bitemp)
 - [PL/SQL Cop](https://github.com/Trivadis/plsql-cop-sqldev)
 - [PL/SQL Unwrapper](https://github.com/Trivadis/plsql-unwrapper-sqldev)
-- [plscope-utils](https://github.com/PhilippSalvisberg/plscope-utils/blob/master/sqldev/README.md)
+- [plscope-utils](https://github.com/PhilippSalvisberg/plscope-utils/blob/main/sqldev/README.md)
 - [Show Me Password](https://github.com/tomecode/show-me-password-sqldev-jdev)
 
 ## Usage
 
-Click the `Help` menu and select `Check for Updates…`. Press the `Add` button to register the update center http://update.salvis.com/ . For this URL a redirect to https://philippsalvisberg.github.io/sqldev-update/sqldeveloper.xml is configured. The content is synchronized by GitHub based on the [docs/sqldeveloper.xml](docs/sqldeveloper.xml) in the master branch of this repository.
+Click the `Help` menu and select `Check for Updates…`. Press the `Add` button to register the update center http://update.salvis.com/ . For this URL a redirect to https://philippsalvisberg.github.io/sqldev-update/sqldeveloper.xml is configured. The content is synchronized by GitHub based on the [docs/sqldeveloper.xml](docs/sqldeveloper.xml) in the master branch of this repository. To be changed as soon as GitHub supports GitHub pages based on the main branch.
 
 ![Add Update Center](images/add-update-center.png)
 
