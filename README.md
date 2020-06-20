@@ -20,7 +20,7 @@ The following SQL Developer extensions are included in the update center:
 
 ## Usage
 
-Click the `Help` menu and select `Check for Updates…`. Press the `Add` button to register the update center http://update.salvis.com/ . For this URL a redirect to https://philippsalvisberg.github.io/sqldev-update/sqldeveloper.xml is configured. The content is synchronized by GitHub based on the [docs/sqldeveloper.xml](docs/sqldeveloper.xml) in the master branch of this repository. To be changed as soon as GitHub supports GitHub pages based on the main branch.
+Click the `Help` menu and select `Check for Updates…`. Press the `Add` button to register the update center http://update.salvis.com/ . For this URL a redirect to https://philippsalvisberg.github.io/sqldev-update/sqldeveloper.xml is configured. The content is synchronized by GitHub based on the [docs/sqldeveloper.xml](docs/sqldeveloper.xml) in the master branch of this repository. 
 
 ![Add Update Center](images/add-update-center.png)
 
