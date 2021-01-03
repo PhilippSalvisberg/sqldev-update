@@ -4,7 +4,7 @@
   xmlns:u="http://xmlns.oracle.com/jdeveloper/update">
 	<u:update id="org.utplsql.sqldev">
 		<u:name>utPLSQL for SQL Developer</u:name>
-		<u:version>1.2.1.20201018.125645</u:version>
+		<u:version>1.3.0.20210103.170722</u:version>
 		<u:author>Philipp Salvisberg</u:author>
 		<u:author-url>http://utplsql.org/</u:author-url>
 		<u:description><![CDATA[Extension for running unit tests in SQL Developer.]]></u:description>
@@ -12,7 +12,7 @@
 			<u:requires-extension id="oracle.sqldeveloper"
 				minVersion="12.2.0.19.0.7" />
 		</u:requirements>
-		<u:bundle-url>https://github.com/utPLSQL/utPLSQL-SQLDeveloper/releases/download/v1.2.1/utplsql_for_SQLDev_1.2.1.zip</u:bundle-url>
+		<u:bundle-url>https://github.com/utPLSQL/utPLSQL-SQLDeveloper/releases/download/v1.3.0/utplsql_for_SQLDev_1.3.0.zip</u:bundle-url>
 	</u:update>
     <u:update id="org.oddgen.sqldev">
         <u:name>oddgen for SQL Developer</u:name>
