@@ -13,7 +13,7 @@ The following SQL Developer extensions are included in the update center:
 - [utPLSQL](https://github.com/utPLSQL/utPLSQL-SQLDeveloper)
 - [oddgen](https://github.com/oddgen/oddgen) 
 - [Bitemp Remodeler](https://github.com/oddgen/bitemp)
-- [PL/SQL Cop](https://github.com/Trivadis/plsql-cop-sqldev)
+- [db\* CODECOP](https://github.com/Trivadis/plsql-cop-sqldev)
 - [PL/SQL Unwrapper](https://github.com/Trivadis/plsql-unwrapper-sqldev)
 - [plscope-utils](https://github.com/PhilippSalvisberg/plscope-utils/blob/main/sqldev/README.md)
 - [Show Me Password](https://github.com/tomecode/show-me-password-sqldev-jdev)
