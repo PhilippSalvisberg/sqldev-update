@@ -40,7 +40,7 @@
     </u:update>
     <u:update id="com.trivadis.tvdcc.sqldev">
 		<u:name>db* CODECOP for SQL Developer</u:name>
-		<u:version>4.1.0.20210515.143350</u:version>
+		<u:version>4.2.0.20210913.080753</u:version>
 		<u:author>Trivadis AG</u:author>
 		<u:author-url>http://www.trivadis.com</u:author-url>
 		<u:description><![CDATA[db* CODECOP for SQL Developer is an extension to check an editor content for compliance violations of the Trivadis PL/SQL & SQL Coding Guidelines Version 4.0 (see https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.0/). Furthermore McCabe's cyclomatic complexity&#44; Halstead's volume&#44; the maintainability index and some other software metrics are calculated for each PL/SQL unit and aggregated on file level. The results are presented in an additional tabbed panel. One tab shows all guideline violations to quickly navigate to the corresponding code position&#44; the other tab contains a full HTML report&#44; which also may be opened in your external browser.]]></u:description>
@@ -48,7 +48,7 @@
 			<u:requires-extension id="oracle.sqldeveloper"
 				minVersion="12.2.0.16.84" />
 		</u:requirements>
-        <u:bundle-url>https://github.com/Trivadis/plsql-cop-sqldev/releases/download/v4.1.0/TVDCC_for_SQLDev-4.1.0.zip</u:bundle-url>
+        <u:bundle-url>https://github.com/Trivadis/plsql-cop-sqldev/releases/download/v4.2.0/TVDCC_for_SQLDev-4.2.0.zip</u:bundle-url>
     </u:update>
     <u:update id="com.trivadis.unwrapper.sqldev">
         <u:name>Trivadis PL/SQL Unwrapper for SQL Developer</u:name>
