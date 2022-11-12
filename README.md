@@ -36,15 +36,6 @@ Restart SQL Developer to install the downloaded updates.
 
 ![Restart SQL Developer](images/restart-sqldev.png)
 
-## Issues
-
-Please file your bug reports, enhancement requests, questions and other support requests within [Github's issue tracker](https://help.github.com/articles/about-issues/).
-
-* [Questions](https://github.com/PhilippSalvisberg/sqldev-update/issues?q=is%3Aissue+label%3Aquestion)
-* [Open enhancements](https://github.com/PhilippSalvisberg/sqldev-update/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
-* [Open bugs](https://github.com/PhilippSalvisberg/sqldev-update/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-* [Submit new issue](https://github.com/PhilippSalvisberg/sqldev-update/issues/new)
-
 ## License
 
 sqldev-update is licensed under the Apache License, Version 2.0. You may obtain a copy of the License at <https://www.apache.org/licenses/LICENSE-2.0>.
